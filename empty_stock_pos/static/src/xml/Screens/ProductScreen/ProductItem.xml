@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates id="template" xml:space="preserve">
+
+    <t t-inherit="point_of_sale.ProductItem" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('product-content')]" position="replace">
+
+            <div class="product-content">
+                <div class="product-name" t-attf-id="article_product_{{props.product.id}}">
+                    <t t-esc="props.product.display_name" />
+                </div>
+                <span class="price-tag">
+                    <t t-esc="price" />
+                </span>
+                <span class="price-available-stock">
+                    Stock : 
+                    <t t-esc="props.product.qty_available" />
+                </span>
+            </div>
+
+        </xpath>
+    </t>
+
+</templates>
