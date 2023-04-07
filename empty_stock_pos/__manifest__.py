@@ -6,6 +6,7 @@
     'summary': 'Empty Stock Notification POS',
     'description': """
         Empty Stock Notification POS
+        Show Stock POS
     """,
     'category': 'Sales/Point of Sale',
     'website': '',
@@ -21,5 +22,6 @@
     'sequence': 41,
     "price": 25,
     "currency": "USD",
+    "images": ['static/description/thumbnail.png'],
     'license': 'LGPL-3',
 }
