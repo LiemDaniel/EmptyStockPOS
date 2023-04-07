@@ -8,8 +8,9 @@
         Empty Stock Notification POS
         Show Stock POS
     """,
+    'author': 'Liem Daniel',
+    'website': 'liemdaniel.my.id',
     'category': 'Sales/Point of Sale',
-    'website': '',
     'depends' : ['point_of_sale'],
     'assets': {
         'point_of_sale.assets': [
