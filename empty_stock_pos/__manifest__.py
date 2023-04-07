@@ -19,5 +19,7 @@
     'installable': True,
     'application': True,
     'sequence': 41,
+    "price": 25,
+    "currency": "USD",
     'license': 'LGPL-3',
 }
