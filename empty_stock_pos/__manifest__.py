@@ -5,7 +5,7 @@
     'version' : '1.0',
     'summary': 'Empty Stock Notification POS',
     'description': """
-        Empty Stock Notification POS
+        Empty Stock Notification POS And
         Show Stock POS
     """,
     'author': 'Liem Daniel',
